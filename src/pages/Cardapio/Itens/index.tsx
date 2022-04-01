@@ -7,7 +7,7 @@ export default function Itens(){
         <div className={styles.itens}>
             {itens.map(item => (
                 <div>
-                    <Item key={item.id}/>
+                    <Item key={item.id} {...item}/>
                 </div>
             ))}
         </div>
