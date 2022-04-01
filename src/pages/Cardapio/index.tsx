@@ -3,7 +3,7 @@ import {ReactComponent as Logo} from "assets/logo.svg"
 import { useState } from "react";
 import Buscador from "./Buscador";
 import Filtros from "./Filtros";
-import Ordenador from "pages/Ordenador";
+import Ordenador from "./Ordenador";
 
 export default function Cardapio(){
 
