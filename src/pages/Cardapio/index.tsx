@@ -10,7 +10,7 @@ export default function Cardapio(){
 
     const [busca, setBusca] = useState("")
     const [filtro, setFiltro] = useState<number | null>(null)
-    const [ordenador, setOrdenador] = useState("");
+    const [ordenador, setOrdenador] = useState('')
 
     return(
         <main>
