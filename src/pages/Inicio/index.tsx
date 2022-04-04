@@ -3,7 +3,7 @@ import styles from './Inicio.module.scss';
 
 export default function Inicio() {
 	let itensSelecionados = [...itens];
-	itensSelecionados = itensSelecionados.sort(() => 0.5 - Math.random()).splice(0,3);
+	itensSelecionados = itensSelecionados.sort(() => 0.5 - Math.random()).splice(0, 3);
 
 	return (
 		<section>
