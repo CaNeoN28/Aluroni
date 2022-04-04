@@ -1,4 +1,4 @@
-import itens from 'pages/Cardapio/Itens/itens.json';
+import itens from 'data/cardapio.json';
 
 export default function Inicio(){
     return(
