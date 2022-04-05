@@ -8,7 +8,6 @@ export default function Inicio() {
 
 	return (
 		<main>
-			<Menu/>
 			<section>
 				<h3 className={styles.titulo}>
 					Recomendações do Chef
