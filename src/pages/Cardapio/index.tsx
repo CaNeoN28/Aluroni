@@ -5,6 +5,7 @@ import Buscador from './Buscador';
 import Filtros from './Filtros';
 import Ordenador from './Ordenador';
 import Itens from './Itens';
+import Menu from 'components/Menu';
 
 export default function Cardapio(){
 
@@ -14,10 +15,7 @@ export default function Cardapio(){
 
 	return(
 		<main>
-			<nav className={styles.menu}>
-				<Logo/>
-			</nav>
-            
+			<Menu/>
 			<header className={styles.header}>
 				<div className={styles.header__text}>
                     A casa do código e da massa
