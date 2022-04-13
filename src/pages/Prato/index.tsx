@@ -1,7 +1,6 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import styles from './Prato.module.scss';
 import cardapio from 'data/cardapio.json';
-import classNames from 'classnames';
 import TagsPrato from 'components/TagsPrato';
 import NotFound from 'pages/NotFound';
 import PaginaPadrao from 'components/PaginaPadrao';

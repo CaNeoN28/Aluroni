@@ -1,6 +1,4 @@
 import styles from './Item.module.scss';
-import cardapio from 'data/cardapio.json';
-import classNames from 'classnames';
 import { Prato } from 'types/Prato';
 import TagsPrato from 'components/TagsPrato';
 import { useNavigate } from 'react-router-dom';
